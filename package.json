@@ -1,0 +1,17 @@
+{
+  "name": "dsa-ts-playground",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "ts-node",
+    "add:lc": "ts-node scripts/add-problem.ts lc",
+    "add:hr": "ts-node scripts/add-problem.ts hr"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
